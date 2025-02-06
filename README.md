@@ -1,41 +1,80 @@
-<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+ 
+Overview
+This is a Next.js project with a structured folder system. It uses TypeScript for type safety and Tailwind CSS for styling. The project includes server-side API calls, reusable components, and a well-organized file structure.
 
-First, run the development server:
+Folder Structure
+Copy
+TESTNEWPROJECT_ASHISH/
+├── next/
+├── node_modules/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── users/
+│   │   │   ├── [...slug]/
+│   │   │   │   ├── loading.tsx
+│   │   │   │   ├── page.tsx
+│   │   ├── error copy.js
+│   │   ├── error.js
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── loading.tsx
+│   │   ├── page.tsx
+│   ├── components/
+│   │   ├── home/
+│   │   │   ├── DashboardLayout.tsx
+│   │   │   ├── Header.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   ├── user/
+│   │   │   ├── UserCard.tsx
+│   │   │   ├── UserDetail.tsx
+│   │   │   ├── UserList.tsx
+│   ├── Constants/
+│   │   ├── assets.tsx
+│   │   ├── urls.tsx
+│   ├── controllers/
+│   │   ├── RequestController.tsx
+├── .eslintrc.json
+├── .gitignore
+├── eslint.config.mjs
+Key Features
+Next.js: For server-side rendering and routing.
 
-```bash
+TypeScript: For type-safe development.
+
+Tailwind CSS: For utility-first styling.
+
+Reusable Components: Components are organized in the components folder.
+
+API Controllers: Server-side logic is handled in the controllers folder.
+
+Getting Started
+Install Dependencies:
+
+bash
+Copy
+npm install
+Run the Project:
+
+bash
+Copy
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open the Application:
+Visit http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Scripts
+npm install: Install dependencies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+npm run dev: Start the development server.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run build: Build for production.
 
-## Learn More
+npm run lint: Run the linter.
 
-To learn more about Next.js, take a look at the following resources:
+npm run type-check: Check TypeScript types.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# ashish_assignment_test
-test
->>>>>>> 51ecacf323952f5bf5cbf04fd7567819077448d6
+my contact detail : email : ashishbohra1208@gmail.com and  contact number : 8947095378
