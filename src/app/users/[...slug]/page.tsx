@@ -3,7 +3,7 @@ import { Constants } from "@/Constants/urls";
 import apiDataController from "@/controllers/RequestController";
 import React from "react";
 
-export default async function page({ params }: { params: { slug: string[] } }) {
+export default async function page({ params }: any) {
   const param: any = await params;
   console.log("params are", param);
   const controller = new apiDataController();
