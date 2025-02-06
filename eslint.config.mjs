@@ -16,3 +16,6 @@ module.exports = {
     // '@typescript-eslint/no-explicit-any': 'warn',
   },
 };
+export default {
+  extends: ["next", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+};
